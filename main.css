@@ -1,0 +1,251 @@
+
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.menu{
+    float: right;
+}
+.TS{
+    float: left;
+}
+
+
+
+/*
+.topbar{
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.secondbar{
+    background-color: green;
+    border-bottom: 1px solid white;
+}
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+.container i{
+    color: white;
+}
+.phone{
+    float: left;
+}
+.phone a{
+    color: #E3E3E3;
+}
+.search{
+    float: right;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: black;
+    padding: 3px;
+    margin-top: 10px;
+    
+}
+.search input{
+    background-color: inherit;
+    border: none;
+    color: white;
+    outline: none;
+    margin-right: 15px;
+}
+.number{
+    margin: 15px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.button{
+    background-color: transparent;
+    background: none;
+    color: azure;
+    border: none;
+    outline: none;
+    margin: -15px;
+}
+.secondbar>.container {
+	display: flex;
+	/*flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo{
+    display: block;
+    font-size: 30px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    list-style: none;
+    font-size: 0;
+    border-left: 1px solid white;
+}
+.navigation ul li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid white;
+    font-size: 14px;
+}
+.navigation ul li a{
+    display: inline-block;
+    padding: 15px;
+
+}
+.navigation ul li:last-child{
+    border-right-style: solid;
+}
+.navigation ul li:hover{
+    background-color: black;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+.welcome{
+    background: url(../images/bg-visual01.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+.hi{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hi h1{
+    font-size: 250%;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    text-transform: uppercase;
+}
+.hi button{
+    margin: 50px;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    background-color: green;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    transition: background-color 0.4s ease;
+}
+.welcome button:hover{
+    background-color: black;
+
+}
+
+.sector2{
+    padding: 40px;
+    min-height: 500px;
+}
+.sector2 h2{
+    text-align: center;
+}
+.pic{
+    float: left;
+    max-width: 550px;
+    max-height: 500px;
+    margin-top: 40px; 
+}
+.pictext{
+    float: right;
+    margin-top: 90px;
+    line-height: 2;
+    max-width: 550px;
+    
+}
+.pictext li{
+    list-style-type: none;
+}
+.pictext p{
+    font-size: 200%;
+}
+.pictext img{
+    max-height: 8px;
+    max-width: 8px;
+    transform: rotate(45deg);
+    padding-right: 10px;
+    
+}
+.main{
+    background-color: #E3E3E3;
+}
+.team{
+    text-align: center;
+    margin: 20px 0;
+}
+.disc>.container {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.disc{
+    display: flex;
+    max-height: 100%;
+    
+}
+.block{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+.block:not(:first-child){
+    margin-left: 20px;
+}
+.block p{
+    margin: 0 5px;
+    color: black;
+}
+.block p:not(:last-child){
+    margin-bottom: 10px;
+    color: black;
+}
+.block img{
+    display: inline-block;
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+.block i{
+    position: absolute;
+    margin: 5px 5px;
+}
+.photos{
+    text-align: center;
+    margin: 20px 0;
+}
+.row{
+    display: flex;
+}
+.row .col{
+    width: 50%;
+    padding: 0 15px;
+}
+.col img{
+    display: inline-block;
+    max-width: 100%;
+    max-height: 500px;
+}
